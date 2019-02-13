@@ -1,8 +1,6 @@
 
-import React, { Component } from 'react';
-import Review from './review' 
+import React, { Component } from 'react'; 
 import Movie from './movie';
-import Cast from './cast';
 
 
 class MovieList extends Component {
@@ -187,7 +185,7 @@ class MovieList extends Component {
     return(
 
         <div>
-           The Movie List
+           <h1>The Movie List🍿</h1>
            {movieComponents}
            
     </div>);
