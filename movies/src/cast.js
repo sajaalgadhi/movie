@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Movies from "./movie";
+
 
 
 class Cast extends Component {
@@ -10,8 +10,8 @@ class Cast extends Component {
      
       <div>
     
-      <li>{this.props.movie.cast.name}:{this.props.movie.cast.role}</li>
-      <movie/>
+      <li>{this.props.name}:{this.props.role}</li>
+     
       </div>
        
      
